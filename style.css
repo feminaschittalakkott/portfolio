@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+  line-height: 180%;
+  color: #666;
+  text-align: center;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  padding: 10px 60px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  z-index: 5;
+  opacity: 1;
+}
+
+nav.black {
+  background: rgba(0, 0, 0, 0.8);
+  height: 80px;
+  padding: 10px 50px;
+}
+
+nav .logo {
+  float: left;
+}
+
+nav .icon {
+  display: none;
+}
+
+nav .logo img {
+  height: 70px;
+  width: 210px;
+  transition: 0.5s;
+}
+
+nav.black .logo img {
+  height: 60px;
+}
+
+nav ul {
+  float: right;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+  margin-top: 25px;
+  line-height: none;
+  font-size: 18px;
+  color: white;
+  padding: 5px 15px;
+  text-decoration: none;
+  transition: 1s;
+  text-shadow: 0 0 10px #000;
+}
+
+nav ul li a {
+  line-height: none;
+  font-size: 18px;
+  color: white;
+  padding: 5px 15px;
+  text-decoration: none;
+  transition: 1s;
+  text-shadow: 0 0 10px #000;
+}
+
+nav.black ul li a {
+  color: #fff;
+  line-height: 20px;
+}
+
+nav.black ul li {
+  color: #fff;
+  line-height: 20px;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+  color: orange;
+}
+
+nav ul li.active,
+nav ul li:hover {
+  color: orange;
+}
+
+.parallax1 {
+  background: url("./images/lines-of-code.jpg");
+  min-height: 100%;
+}
+
+.parallax2 {
+  background: url("./images/system.jpg");
+  min-height: 60%;
+}
+
+.parallax3 {
+  background: url("./images/laptop.jpeg");
+  min-height: 40%;
+}
+
+.parallax4 {
+  background: url("./images/web.jpg");
+  min-height: 60%;
+}
+
+.parallax5 {
+  background: url("http://www.babysitting.academy/wp-content/uploads/2015/01/kids-hands-holding-plants-yolo-farm-to-fork-1030x686.jpg");
+  min-height: 50%;
+}
+
+.parallax1,
+.parallax2,
+.parallax3,
+.parallax4,
+.parallax5,
+.parallax6 {
+  position: relative;
+  opacity: 0.85;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.heading {
+  position: absolute;
+  color: #fff;
+  font-size: 550%;
+  top: 38%;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  text-shadow: 0 0 10px #000;
+}
+
+.heading2 {
+  position: absolute;
+  color: #fff;
+  font-size: 150%;
+  top: 60%;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  text-shadow: 0 0 10px #000;
+}
+
+.heading-sm {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  color: #fff;
+  font-size: 250%;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-shadow: 0 0 10px #000;
+}
+
+.two-col {
+  float: left;
+  width: 42%;
+  padding: 0 4%;
+  text-align: center;
+}
+
+section {
+  overflow: auto;
+  padding: 50px 80px;
+}
+
+.dark {
+  overflow: auto;
+  padding: 50px 80px;
+  background-color: #323232;
+  color: #f2f2f2;
+}
+.techskills img{
+  height: 100px;
+  width: 100px;
+}
+.techskills p{
+  font-weight: bold;
+}
+.history .card{
+  background-color: #cccccc46;
+}
+
+.history .card:hover{
+  background-color: #ccccccbf;
+  border: 0px;
+}
+
+.contact {
+  color: white;
+}
+
+.contact div.container {
+  width: 50%;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
