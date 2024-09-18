@@ -1,4 +1,10 @@
 @media (max-width: 768px) {
+    * {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+
     nav {
         padding: 10px 20px;
     }
@@ -19,7 +25,7 @@
         transition: 1s;
         text-shadow: 0 0 10px #000;
     }
-    
+
 
     nav ul {
         display: none;
@@ -38,6 +44,17 @@
     nav ul li {
         margin: 15px 0;
         text-align: center;
+    }
+
+    .parallax1 {
+        background: url("./images/lines-of-code.jpg");
+        min-height: 100%;
+        width: 100%;
+    }
+
+    section {
+        overflow: auto;
+        padding: 50px 10px;
     }
 }
 
