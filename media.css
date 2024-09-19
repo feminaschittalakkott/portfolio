@@ -26,7 +26,6 @@
         text-shadow: 0 0 10px #000;
     }
 
-
     nav ul {
         display: none;
         flex-direction: column;
@@ -50,6 +49,14 @@
         overflow: auto;
         padding: 50px 10px;
     }
+    #projectsec .card{
+        margin-top: 15px;
+        height: 27rem;
+    }
+    .skill_div .col-sm-12 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
 }
 
 @media (max-width: 900px) {
@@ -59,6 +66,11 @@
 
     .heading {
         font-size: 250%;
+    }
+
+    #projectsec .card{
+        margin-top: 15px;
+        height: 27rem;
     }
 }
 
@@ -83,5 +95,10 @@
 
     .contact div.container {
         width: 100%;
+    }
+    
+    #projectsec .card{
+        margin-top: 15px;
+        height: 27rem;
     }
 }

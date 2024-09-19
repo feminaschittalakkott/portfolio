@@ -186,6 +186,10 @@ section {
   padding: 50px 80px;
 }
 
+#projectsec .card{
+  height: 25rem;
+}
+
 .dark {
   overflow: auto;
   padding: 50px 80px;
