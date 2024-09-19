@@ -65,22 +65,9 @@
         font-size: 250%;
     }
 
-    #projectsec .card{
+    #projectsec .card {
         margin-top: 15px;
         height: 27rem;
-    }
-
-    .parallax2,
-    .parallax3,
-    .parallax4,
-    .parallax5,
-    .parallax6 {
-      position: relative;
-      opacity: 0.9;
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
     }
 
 }

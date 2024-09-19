@@ -186,7 +186,7 @@ section {
   padding: 50px 80px;
 }
 
-#projectsec .card{
+#projectsec .card {
   height: 25rem;
 }
 
@@ -196,18 +196,21 @@ section {
   background-color: #323232;
   color: #f2f2f2;
 }
-.techskills img{
+
+.techskills img {
   height: 100px;
   width: 100px;
 }
-.techskills p{
+
+.techskills p {
   font-weight: bold;
 }
-.history .card{
+
+.history .card {
   background-color: #cccccc46;
 }
 
-.history .card:hover{
+.history .card:hover {
   background-color: #ccccccbf;
   border: 0px;
 }
