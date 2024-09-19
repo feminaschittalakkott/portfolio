@@ -47,12 +47,7 @@
 
     section {
         overflow: auto;
-        padding: 50px 10px;
-    }
-
-    #projectsec .card {
-        margin-top: 15px;
-        height: 27rem;
+        padding: 50px 15px;
     }
 
     .skill_div .col-sm-12 {
@@ -70,10 +65,24 @@
         font-size: 250%;
     }
 
-    #projectsec .card {
+    #projectsec .card{
         margin-top: 15px;
         height: 27rem;
     }
+
+    .parallax2,
+    .parallax3,
+    .parallax4,
+    .parallax5,
+    .parallax6 {
+      position: relative;
+      opacity: 0.9;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+
 }
 
 @media (max-width: 600px) {
@@ -97,23 +106,5 @@
 
     .contact div.container {
         width: 100%;
-    }
-
-    #projectsec .card {
-        margin-top: 15px;
-        height: 27rem;
-    }
-
-    .parallax2,
-    .parallax3,
-    .parallax4,
-    .parallax5,
-    .parallax6 {
-        position: relative;
-        opacity: 0.9;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
     }
 }
