@@ -1,11 +1,5 @@
 @media (max-width: 768px) {
 
-    * {
-        padding: 0px;
-        margin: 0px;
-        box-sizing: border-box;
-    }
-
     nav {
         padding: 10px 20px;
     }
@@ -59,12 +53,6 @@
 
 @media (max-width: 900px) {
 
-    * {
-        padding: 0px;
-        margin: 0px;
-        box-sizing: border-box;
-    }
-
     nav ul li {
         font-size: 12px;
     }
@@ -78,30 +66,10 @@
         height: 27rem;
     }
 
-    .parallax1,
-    .parallax2,
-    .parallax3,
-    .parallax4,
-    .parallax5,
-    .parallax6 {
-        position: relative;
-        opacity: 0.9;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
-
 }
 
 @media (max-width: 600px) {
-
-    * {
-        padding: 0px;
-        margin: 0px;
-        box-sizing: border-box;
-    }
-
+    
     .heading {
         font-size: 250%;
     }
