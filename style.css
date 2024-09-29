@@ -122,16 +122,10 @@ nav ul li:hover {
   min-height: 60%;
 }
 
-.parallax5 {
-  background: url("http://www.babysitting.academy/wp-content/uploads/2015/01/kids-hands-holding-plants-yolo-farm-to-fork-1030x686.jpg");
-  min-height: 50%;
-}
-
 .parallax1,
 .parallax2,
 .parallax3,
 .parallax4,
-.parallax5,
 .parallax6 {
   position: relative;
   opacity: 0.9;
@@ -174,13 +168,6 @@ nav ul li:hover {
   text-shadow: 0 0 10px #000;
 }
 
-.two-col {
-  float: left;
-  width: 42%;
-  padding: 0 4%;
-  text-align: center;
-}
-
 section {
   overflow: auto;
   padding: 50px 80px;
@@ -221,30 +208,4 @@ section {
 
 .contact div.container {
   width: 50%;
-}
-
-input[type="text"],
-select,
-textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
-
-input[type="submit"] {
-  background-color: #4caf50;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type="submit"]:hover {
-  background-color: #45a049;
 }

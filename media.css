@@ -69,7 +69,7 @@
 }
 
 @media (max-width: 600px) {
-    
+
     .heading {
         font-size: 250%;
     }
@@ -78,17 +78,19 @@
         font-size: 180%;
     }
 
-    .two-col {
-        width: 100%;
-        padding: 0;
-        text-align: center;
-    }
-
     nav ul li {
         font-size: 8px;
     }
 
-    .contact div.container {
+    .contact div.container-fluid {
+        width: 100%;
+    }
+
+    .parallax1,
+    .parallax2,
+    .parallax3,
+    .parallax4,
+    .parallax6 {
         width: 100%;
     }
 }
