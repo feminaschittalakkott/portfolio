@@ -49,6 +49,15 @@
         flex: 0 0 50%;
         max-width: 50%;
     }
+
+    .heading-sm-p3 {
+        top: 40%;
+        font-size: 180%;
+    }
+
+    .history .col-sm-12 {
+        margin: 7%;
+    }
 }
 
 @media (max-width: 900px) {
@@ -66,12 +75,8 @@
         height: 27rem;
     }
 
-    .parallax1, .parallax2, .parallax3, .parallax4, .parallax6 {
-        opacity: 0.9;
-        background-attachment: fixed;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
+    .history .col-sm-12 {
+        margin: 7%;
     }
 
 }
@@ -83,6 +88,11 @@
     }
 
     .heading-sm {
+        font-size: 180%;
+    }
+
+    .heading-sm-p3 {
+        top: 25%;
         font-size: 180%;
     }
 

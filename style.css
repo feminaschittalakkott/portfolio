@@ -13,6 +13,8 @@ html {
   font-family: "Ubuntu", sans-serif;
   line-height: 180%;
   color: #666;
+}
+h1, h3{
   text-align: center;
 }
 
@@ -127,6 +129,7 @@ nav ul li:hover {
 .parallax3,
 .parallax4,
 .parallax6 {
+  text-align: center;
   position: relative;
   opacity: 0.9;
   background-position: center;
@@ -157,7 +160,7 @@ nav ul li:hover {
   text-shadow: 0 0 10px #000;
 }
 
-.heading-sm {
+.heading-sm, .heading-sm-p3 {
   position: absolute;
   top: 40%;
   width: 100%;
@@ -194,6 +197,7 @@ section {
 }
 
 .history .card {
+  text-align: center;
   background-color: #cccccc46;
 }
 
@@ -204,8 +208,5 @@ section {
 
 .contact {
   color: white;
-}
-
-.contact div.container {
-  width: 50%;
+  font-size: large;
 }
