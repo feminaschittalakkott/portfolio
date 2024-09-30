@@ -44,20 +44,6 @@
         overflow: auto;
         padding: 50px 15px;
     }
-
-    .skill_div .col-sm-12 {
-        flex: 0 0 50%;
-        max-width: 50%;
-    }
-
-    .heading-sm-p3 {
-        top: 40%;
-        font-size: 180%;
-    }
-
-    .history .col-sm-12 {
-        margin: 7%;
-    }
 }
 
 @media (max-width: 900px) {
@@ -68,6 +54,11 @@
 
     .heading {
         font-size: 250%;
+    }
+
+    .heading-sm-p3 {
+        top: 40%;
+        font-size: 180%;
     }
 
     #projectsec .card {
@@ -92,7 +83,7 @@
     }
 
     .heading-sm-p3 {
-        top: 25%;
+        top: 30%;
         font-size: 180%;
     }
 
@@ -103,4 +94,14 @@
     .contact div.container-fluid {
         width: 100%;
     }
+
+    .skill_div .col-sm-12 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .history .col-sm-12 {
+        margin: 0%;
+    }
+
 }
