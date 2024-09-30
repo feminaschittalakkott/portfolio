@@ -66,6 +66,12 @@
         height: 27rem;
     }
 
+    .parallax1, .parallax2, .parallax3, .parallax4, .parallax6 {
+        background-attachment: scroll;
+        background-position: center;
+        background-size: cover;
+    }
+
 }
 
 @media (max-width: 600px) {
